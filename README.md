@@ -1,6 +1,6 @@
 # Data Pipeline for Taxi Trip Data Analysis
 
-##Overview
+#Overview
 
 This repository contains the code and resources for a data pipeline that analyzes taxi trip data using Azure Databricks and Delta Lake. The pipeline ingests raw data, transforms it, and stores it in Delta Lake for subsequent analysis and reporting.
 
