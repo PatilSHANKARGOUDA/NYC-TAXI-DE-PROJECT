@@ -7,9 +7,9 @@
 
 spark.conf.set("fs.azure.account.auth.type.nyctaxidatashankardl.dfs.core.windows.net", "OAuth")
 spark.conf.set("fs.azure.account.oauth.provider.type.nyctaxidatashankardl.dfs.core.windows.net", "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider")
-spark.conf.set("fs.azure.account.oauth2.client.id.nyctaxidatashankardl.dfs.core.windows.net", "fe24c27c-54d7-4ad5-bd62-aba427ed0253")
-spark.conf.set("fs.azure.account.oauth2.client.secret.nyctaxidatashankardl.dfs.core.windows.net", "qb98Q~5sXv7o79_aA_n4EkablLvplmL-eYu2FaId")
-spark.conf.set("fs.azure.account.oauth2.client.endpoint.nyctaxidatashankardl.dfs.core.windows.net", "https://login.microsoftonline.com/ec75aa0c-4e8e-4bfa-bbf4-12c24f3bc7a4/oauth2/token")
+spark.conf.set("fs.azure.account.oauth2.client.id.nyctaxidatashankardl.dfs.core.windows.net", "<Application ID>")
+spark.conf.set("fs.azure.account.oauth2.client.secret.nyctaxidatashankardl.dfs.core.windows.net", "service_principle_secrete")
+spark.conf.set("fs.azure.account.oauth2.client.endpoint.nyctaxidatashankardl.dfs.core.windows.net", "https://login.microsoftonline.com/tenent_ID/oauth2/token")
 
 
 # COMMAND ----------
